@@ -8,6 +8,8 @@
 ### 效果图
 <img width="1268" alt="image" src="https://github.com/user-attachments/assets/680ff65e-2749-4dbf-a602-6ae9ff7f0e2f">
 
+<img width="1275" alt="image" src="https://github.com/user-attachments/assets/b87677af-c877-430d-827b-9f6428f11afe">
+
 
 ### 源码来源
 https://vjietu.pro
