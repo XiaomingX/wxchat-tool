@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charSet="utf-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <link rel="icon" href="/favicon.png" />
+  <title>微信对话生成器 - 微信聊天记录生成器 - 微截图Pro</title>
+  <meta name="description"
+    content="微信对话生成器是微截图Pro的重要功能之一，是一微信聊天记录生成器，用户使用它只需要设置好对话角色，就可以模拟微信对话内容，包括文字表情、转账红包、图片视频等，一键生成图片保存" />
+  <meta name="keywords" content="微信对话生成器,微信聊天生成器,微信聊天记录生成器" />
+  <meta name="next-head-count" content="6" />
+  <link data-next-font="" rel="preconnect" href="/" crossorigin="anonymous" />
+  <link rel="preload" href="/_next/static/css/5df6a68c74fd7532.css" as="style" />
+  <link rel="stylesheet" href="/_next/static/css/5df6a68c74fd7532.css" data-n-g="" />
+  <link rel="preload" href="/_next/static/css/f219819be141e4de.css" as="style" />
+  <link rel="stylesheet" href="/_next/static/css/f219819be141e4de.css" data-n-p="" /><noscript data-n-css=""></noscript>
+  <script defer="" nomodule="" src="/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js"></script>
+  <script src="/_next/static/chunks/webpack-e378460ee395d4a5.js" defer=""></script>
+  <script src="/_next/static/chunks/framework-305cb810cde7afac.js" defer=""></script>
+  <script src="/_next/static/chunks/main-3bb9c942f05cb54a.js" defer=""></script>
+  <script src="/_next/static/chunks/pages/_app-3c8f9012159c957d.js" defer=""></script>
+  <script src="/_next/static/chunks/29107295-8f8fd7e7e27aa6a2.js" defer=""></script>
+  <script src="/_next/static/chunks/ad7f724d-1c40c3094ead0a0b.js" defer=""></script>
+  <script src="/_next/static/chunks/331-25af8c871755b58e.js" defer=""></script>
+  <script src="/_next/static/chunks/532-f67f5f425aa4f46b.js" defer=""></script>
+  <script src="/_next/static/chunks/585-c7d7da89937fd0a8.js" defer=""></script>
+  <script src="/_next/static/chunks/pages/wechat/chat-2c4f345bb831885b.js" defer=""></script>
+  <script src="/_next/static/PtEk2uW4vVKqtwWvTyZpy/_buildManifest.js" defer=""></script>
+  <script src="/_next/static/PtEk2uW4vVKqtwWvTyZpy/_ssgManifest.js" defer=""></script>
+</head>
+
+<body>
+  <div id="__next">
+    <section class="ant-layout layout_layout__mak0_ css-1wazalj">
+      <header class="ant-layout-header layout_header__r9pVU css-1wazalj"><a class="layout_logoBtn__ZasWc" href="/">
+          <div class="layout_logo__o_pR9"></div>
+          <div class="layout_name__Ta7fh">微截图Pro</div>
+        </a>
+        <ul
+          class="ant-menu-overflow ant-menu ant-menu-root ant-menu-horizontal ant-menu-light layout_menu__ioCCG css-1wazalj"
+          role="menu" tabindex="0" data-menu-list="true">
+          <li class="ant-menu-overflow-item ant-menu-item ant-menu-item-only-child" style="opacity:1;order:0"
+            role="menuitem" tabindex="-1"><span class="ant-menu-title-content">首页</span></li>
+          <li class="ant-menu-overflow-item ant-menu-item ant-menu-item-selected ant-menu-item-only-child"
+            style="opacity:1;order:1" role="menuitem" tabindex="-1"><span class="ant-menu-title-content">微信对话生成器</span>
+          </li>
+          <li class="ant-menu-overflow-item ant-menu-overflow-item-rest ant-menu-submenu ant-menu-submenu-horizontal"
+            style="opacity:0;height:0;overflow-y:hidden;order:9007199254740991;pointer-events:none;position:absolute"
+            aria-hidden="true" role="none">
+            <div role="menuitem" class="ant-menu-submenu-title" tabindex="-1" aria-expanded="false"
+              aria-haspopup="true"><span role="img" aria-label="ellipsis" class="anticon anticon-ellipsis"><svg
+                  viewBox="64 64 896 896" focusable="false" data-icon="ellipsis" width="1em" height="1em"
+                  fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M176 511a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0z">
+                  </path>
+                </svg></span><i class="ant-menu-submenu-arrow"></i></div>
+          </li>
+        </ul>
+        <div style="display:none" aria-hidden="true"></div>
+      </header>
+      <main class="ant-layout-content layout_content__iDPAp css-1wazalj">
+        <div class="main_side__WhXKS">
+          <div class="sidebar_items__ntHXL"><a class="sidebar_item__C67tZ sidebar_itemActive__Er1t0"><span role="img"
+                aria-label="control" class="anticon anticon-control sidebar_icon__00rJx"><svg viewBox="64 64 896 896"
+                  focusable="false" data-icon="control" width="1em" height="1em" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM404 683v77c0 4.4-3.6 8-8 8h-48c-4.4 0-8-3.6-8-8v-77c-41.7-13.6-72-52.8-72-99s30.3-85.5 72-99V264c0-4.4 3.6-8 8-8h48c4.4 0 8 3.6 8 8v221c41.7 13.6 72 52.8 72 99s-30.3 85.5-72 99zm279.6-143.9c.2 0 .3-.1.4-.1v221c0 4.4-3.6 8-8 8h-48c-4.4 0-8-3.6-8-8V539c.2 0 .3.1.4.1-42-13.4-72.4-52.7-72.4-99.1 0-46.4 30.4-85.7 72.4-99.1-.2 0-.3.1-.4.1v-77c0-4.4 3.6-8 8-8h48c4.4 0 8 3.6 8 8v77c-.2 0-.3-.1-.4-.1 42 13.4 72.4 52.7 72.4 99.1 0 46.4-30.4 85.7-72.4 99.1zM616 440a36 36 0 1072 0 36 36 0 10-72 0zM403.4 566.5l-1.5-2.4c0-.1-.1-.1-.1-.2l-.9-1.2c-.1-.1-.2-.2-.2-.3-1-1.3-2-2.5-3.2-3.6l-.2-.2c-.4-.4-.8-.8-1.2-1.1-.8-.8-1.7-1.5-2.6-2.1h-.1l-1.2-.9c-.1-.1-.3-.2-.4-.3-1.2-.8-2.5-1.6-3.9-2.2-.2-.1-.5-.2-.7-.4-.4-.2-.7-.3-1.1-.5-.3-.1-.7-.3-1-.4-.5-.2-1-.4-1.5-.5-.4-.1-.9-.3-1.3-.4l-.9-.3-1.4-.3c-.2-.1-.5-.1-.7-.2-.7-.1-1.4-.3-2.1-.4-.2 0-.4 0-.6-.1-.6-.1-1.1-.1-1.7-.2-.2 0-.4 0-.7-.1-.8 0-1.5-.1-2.3-.1s-1.5 0-2.3.1c-.2 0-.4 0-.7.1-.6 0-1.2.1-1.7.2-.2 0-.4 0-.6.1-.7.1-1.4.2-2.1.4-.2.1-.5.1-.7.2l-1.4.3-.9.3c-.4.1-.9.3-1.3.4-.5.2-1 .4-1.5.5-.3.1-.7.3-1 .4-.4.2-.7.3-1.1.5-.2.1-.5.2-.7.4-1.3.7-2.6 1.4-3.9 2.2-.1.1-.3.2-.4.3l-1.2.9h-.1c-.9.7-1.8 1.4-2.6 2.1-.4.4-.8.7-1.2 1.1l-.2.2a54.8 54.8 0 00-3.2 3.6c-.1.1-.2.2-.2.3l-.9 1.2c0 .1-.1.1-.1.2l-1.5 2.4c-.1.2-.2.3-.3.5-2.7 5.1-4.3 10.9-4.3 17s1.6 12 4.3 17c.1.2.2.3.3.5l1.5 2.4c0 .1.1.1.1.2l.9 1.2c.1.1.2.2.2.3 1 1.3 2 2.5 3.2 3.6l.2.2c.4.4.8.8 1.2 1.1.8.8 1.7 1.5 2.6 2.1h.1l1.2.9c.1.1.3.2.4.3 1.2.8 2.5 1.6 3.9 2.2.2.1.5.2.7.4.4.2.7.3 1.1.5.3.1.7.3 1 .4.5.2 1 .4 1.5.5.4.1.9.3 1.3.4l.9.3 1.4.3c.2.1.5.1.7.2.7.1 1.4.3 2.1.4.2 0 .4 0 .6.1.6.1 1.1.1 1.7.2.2 0 .4 0 .7.1.8 0 1.5.1 2.3.1s1.5 0 2.3-.1c.2 0 .4 0 .7-.1.6 0 1.2-.1 1.7-.2.2 0 .4 0 .6-.1.7-.1 1.4-.2 2.1-.4.2-.1.5-.1.7-.2l1.4-.3.9-.3c.4-.1.9-.3 1.3-.4.5-.2 1-.4 1.5-.5.3-.1.7-.3 1-.4.4-.2.7-.3 1.1-.5.2-.1.5-.2.7-.4 1.3-.7 2.6-1.4 3.9-2.2.1-.1.3-.2.4-.3l1.2-.9h.1c.9-.7 1.8-1.4 2.6-2.1.4-.4.8-.7 1.2-1.1l.2-.2c1.1-1.1 2.2-2.4 3.2-3.6.1-.1.2-.2.2-.3l.9-1.2c0-.1.1-.1.1-.2l1.5-2.4c.1-.2.2-.3.3-.5 2.7-5.1 4.3-10.9 4.3-17s-1.6-12-4.3-17c-.1-.2-.2-.4-.3-.5z">
+                  </path>
+                </svg></span>
+              <div>状态栏</div>
+            </a><a class="sidebar_item__C67tZ false"><span role="img" aria-label="mobile"
+                class="anticon anticon-mobile sidebar_icon__00rJx"><svg viewBox="64 64 896 896" focusable="false"
+                  data-icon="mobile" width="1em" height="1em" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M744 62H280c-35.3 0-64 28.7-64 64v768c0 35.3 28.7 64 64 64h464c35.3 0 64-28.7 64-64V126c0-35.3-28.7-64-64-64zM512 824c-22.1 0-40-17.9-40-40s17.9-40 40-40 40 17.9 40 40-17.9 40-40 40z">
+                  </path>
+                </svg></span>
+              <div>型号</div>
+            </a><a class="sidebar_item__C67tZ false"><span role="img" aria-label="eye"
+                class="anticon anticon-eye sidebar_icon__00rJx"><svg viewBox="64 64 896 896" focusable="false"
+                  data-icon="eye" width="1em" height="1em" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M396 512a112 112 0 10224 0 112 112 0 10-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 000 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z">
+                  </path>
+                </svg></span>
+              <div>显示</div>
+            </a><a class="sidebar_item__C67tZ false"><span role="img" aria-label="user"
+                class="anticon anticon-user sidebar_icon__00rJx"><svg viewBox="64 64 896 896" focusable="false"
+                  data-icon="user" width="1em" height="1em" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M858.5 763.6a374 374 0 00-80.6-119.5 375.63 375.63 0 00-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1-.4.2-.8.3-1.2.5-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 00-80.6 119.5A371.7 371.7 0 00136 901.8a8 8 0 008 8.2h60c4.4 0 7.9-3.5 8-7.8 2-77.2 33-149.5 87.8-204.3 56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 008-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z">
+                  </path>
+                </svg></span>
+              <div>角色</div>
+            </a><a class="sidebar_item__C67tZ false"><span role="img" aria-label="wechat"
+                class="anticon anticon-wechat sidebar_icon__00rJx"><svg viewBox="64 64 896 896" focusable="false"
+                  data-icon="wechat" width="1em" height="1em" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M690.1 377.4c5.9 0 11.8.2 17.6.5-24.4-128.7-158.3-227.1-319.9-227.1C209 150.8 64 271.4 64 420.2c0 81.1 43.6 154.2 111.9 203.6a21.5 21.5 0 019.1 17.6c0 2.4-.5 4.6-1.1 6.9-5.5 20.3-14.2 52.8-14.6 54.3-.7 2.6-1.7 5.2-1.7 7.9 0 5.9 4.8 10.8 10.8 10.8 2.3 0 4.2-.9 6.2-2l70.9-40.9c5.3-3.1 11-5 17.2-5 3.2 0 6.4.5 9.5 1.4 33.1 9.5 68.8 14.8 105.7 14.8 6 0 11.9-.1 17.8-.4-7.1-21-10.9-43.1-10.9-66 0-135.8 132.2-245.8 295.3-245.8zm-194.3-86.5c23.8 0 43.2 19.3 43.2 43.1s-19.3 43.1-43.2 43.1c-23.8 0-43.2-19.3-43.2-43.1s19.4-43.1 43.2-43.1zm-215.9 86.2c-23.8 0-43.2-19.3-43.2-43.1s19.3-43.1 43.2-43.1 43.2 19.3 43.2 43.1-19.4 43.1-43.2 43.1zm586.8 415.6c56.9-41.2 93.2-102 93.2-169.7 0-124-120.8-224.5-269.9-224.5-149 0-269.9 100.5-269.9 224.5S540.9 847.5 690 847.5c30.8 0 60.6-4.4 88.1-12.3 2.6-.8 5.2-1.2 7.9-1.2 5.2 0 9.9 1.6 14.3 4.1l59.1 34c1.7 1 3.3 1.7 5.2 1.7a9 9 0 006.4-2.6 9 9 0 002.6-6.4c0-2.2-.9-4.4-1.4-6.6-.3-1.2-7.6-28.3-12.2-45.3-.5-1.9-.9-3.8-.9-5.7.1-5.9 3.1-11.2 7.6-14.5zM600.2 587.2c-19.9 0-36-16.1-36-35.9 0-19.8 16.1-35.9 36-35.9s36 16.1 36 35.9c0 19.8-16.2 35.9-36 35.9zm179.9 0c-19.9 0-36-16.1-36-35.9 0-19.8 16.1-35.9 36-35.9s36 16.1 36 35.9a36.08 36.08 0 01-36 35.9z">
+                  </path>
+                </svg></span>
+              <div>对话</div>
+            </a></div>
+          <div class="main_sideContent__b1Jvz">
+            <h1 class="main_sideTitle__YcqOu">微信对话生成器</h1>
+            <div class="sidebar_bar__u5LK3" style="display:block">
+              <div class="statusbar_item__u6ZGX">
+                <div>手机时间</div>
+                <div class="statusbar_itemContent__VOkCj">
+                  <div class="ant-picker css-1wazalj">
+                    <div class="ant-picker-input"><input readonly="" placeholder="请选择时间" title="" size="10"
+                        autoComplete="off" value="" /><span class="ant-picker-suffix"><span role="img"
+                          aria-label="clock-circle" class="anticon anticon-clock-circle"><svg viewBox="64 64 896 896"
+                            focusable="false" data-icon="clock-circle" width="1em" height="1em" fill="currentColor"
+                            aria-hidden="true">
+                            <path
+                              d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z">
+                            </path>
+                            <path
+                              d="M686.7 638.6L544.1 535.5V288c0-4.4-3.6-8-8-8H488c-4.4 0-8 3.6-8 8v275.4c0 2.6 1.2 5 3.3 6.5l165.4 120.6c3.6 2.6 8.6 1.8 11.2-1.7l28.6-39c2.6-3.7 1.8-8.7-1.8-11.2z">
+                            </path>
+                          </svg></span></span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="statusbar_item__u6ZGX">
+                <div>时间24小时制</div>
+                <div class="statusbar_itemContent__VOkCj"><button type="button" role="switch" aria-checked="false"
+                    class="ant-switch css-1wazalj">
+                    <div class="ant-switch-handle"></div><span class="ant-switch-inner"><span
+                        class="ant-switch-inner-checked"></span><span class="ant-switch-inner-unchecked"></span></span>
+                  </button></div>
+              </div>
+              <div class="statusbar_item__u6ZGX">
+                <div>网络1</div>
+                <div class="statusbar_itemContent__VOkCj">
+                  <div class="ant-select css-1wazalj ant-select-single ant-select-show-arrow" style="width:100px">
+                    <div class="ant-select-selector"><span class="ant-select-selection-search"><input type="search"
+                          autoComplete="off" class="ant-select-selection-search-input" role="combobox"
+                          aria-expanded="false" aria-haspopup="listbox" aria-owns="undefined_list"
+                          aria-autocomplete="list" aria-controls="undefined_list"
+                          aria-activedescendant="undefined_list_0" readonly="" unselectable="on" style="opacity:0"
+                          value="" /></span><span class="ant-select-selection-item" title="4G">4G</span></div><span
+                      class="ant-select-arrow" style="user-select:none;-webkit-user-select:none" unselectable="on"
+                      aria-hidden="true"><span role="img" aria-label="down"
+                        class="anticon anticon-down ant-select-suffix"><svg viewBox="64 64 896 896" focusable="false"
+                          data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true">
+                          <path
+                            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z">
+                          </path>
+                        </svg></span></span>
+                  </div>
+                </div>
+              </div>
+              <div class="statusbar_item__u6ZGX">
+                <div>网络2</div>
+                <div class="statusbar_itemContent__VOkCj">
+                  <div class="ant-select css-1wazalj ant-select-single ant-select-show-arrow" style="width:100px">
+                    <div class="ant-select-selector"><span class="ant-select-selection-search"><input type="search"
+                          autoComplete="off" class="ant-select-selection-search-input" role="combobox"
+                          aria-expanded="false" aria-haspopup="listbox" aria-owns="undefined_list"
+                          aria-autocomplete="list" aria-controls="undefined_list"
+                          aria-activedescendant="undefined_list_0" readonly="" unselectable="on" style="opacity:0"
+                          value="" /></span><span class="ant-select-selection-item" title="5G">5G</span></div><span
+                      class="ant-select-arrow" style="user-select:none;-webkit-user-select:none" unselectable="on"
+                      aria-hidden="true"><span role="img" aria-label="down"
+                        class="anticon anticon-down ant-select-suffix"><svg viewBox="64 64 896 896" focusable="false"
+                          data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true">
+                          <path
+                            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z">
+                          </path>
+                        </svg></span></span>
+                  </div>
+                </div>
+              </div>
+              <div class="statusbar_item__u6ZGX">
+                <div>电量</div>
+                <div class="statusbar_itemContent__VOkCj">
+                  <div class="ant-slider css-1wazalj ant-slider-horizontal" style="width:70%">
+                    <div class="ant-slider-rail"></div>
+                    <div class="ant-slider-track" style="left:0%;width:60%"></div>
+                    <div class="ant-slider-step"></div>
+                    <div class="ant-slider-handle" style="left:60%;transform:translateX(-50%)" tabindex="0"
+                      role="slider" aria-valuemin="0" aria-valuemax="100" aria-valuenow="60" aria-disabled="false">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="statusbar_item__u6ZGX">
+                <div>是否充电中</div>
+                <div class="statusbar_itemContent__VOkCj"><button type="button" role="switch" aria-checked="false"
+                    class="ant-switch css-1wazalj">
+                    <div class="ant-switch-handle"></div><span class="ant-switch-inner"><span
+                        class="ant-switch-inner-checked"></span><span class="ant-switch-inner-unchecked"></span></span>
+                  </button></div>
+              </div>
+              <div class="statusbar_item__u6ZGX">
+                <div>wifi信号</div>
+                <div class="statusbar_itemContent__VOkCj">
+                  <div class="ant-select css-1wazalj ant-select-single ant-select-show-arrow" style="width:100px">
+                    <div class="ant-select-selector"><span class="ant-select-selection-search"><input type="search"
+                          autoComplete="off" class="ant-select-selection-search-input" role="combobox"
+                          aria-expanded="false" aria-haspopup="listbox" aria-owns="undefined_list"
+                          aria-autocomplete="list" aria-controls="undefined_list"
+                          aria-activedescendant="undefined_list_0" readonly="" unselectable="on" style="opacity:0"
+                          value="" /></span><span class="ant-select-selection-item" title="2格">2格</span></div><span
+                      class="ant-select-arrow" style="user-select:none;-webkit-user-select:none" unselectable="on"
+                      aria-hidden="true"><span role="img" aria-label="down"
+                        class="anticon anticon-down ant-select-suffix"><svg viewBox="64 64 896 896" focusable="false"
+                          data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true">
+                          <path
+                            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z">
+                          </path>
+                        </svg></span></span>
+                  </div>
+                </div>
+              </div>
+              <div class="statusbar_item__u6ZGX">
+                <div>双卡模式</div>
+                <div class="statusbar_itemContent__VOkCj"><button type="button" role="switch" aria-checked="true"
+                    class="ant-switch css-1wazalj ant-switch-checked">
+                    <div class="ant-switch-handle"></div><span class="ant-switch-inner"><span
+                        class="ant-switch-inner-checked"></span><span class="ant-switch-inner-unchecked"></span></span>
+                  </button></div>
+              </div>
+              <div class="statusbar_item__u6ZGX">
+                <div>SIM卡1信号</div>
+                <div class="statusbar_itemContent__VOkCj">
+                  <div class="ant-select css-1wazalj ant-select-single ant-select-show-arrow" style="width:100px">
+                    <div class="ant-select-selector"><span class="ant-select-selection-search"><input type="search"
+                          autoComplete="off" class="ant-select-selection-search-input" role="combobox"
+                          aria-expanded="false" aria-haspopup="listbox" aria-owns="undefined_list"
+                          aria-autocomplete="list" aria-controls="undefined_list"
+                          aria-activedescendant="undefined_list_0" readonly="" unselectable="on" style="opacity:0"
+                          value="" /></span><span class="ant-select-selection-item" title="1格">1格</span></div><span
+                      class="ant-select-arrow" style="user-select:none;-webkit-user-select:none" unselectable="on"
+                      aria-hidden="true"><span role="img" aria-label="down"
+                        class="anticon anticon-down ant-select-suffix"><svg viewBox="64 64 896 896" focusable="false"
+                          data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true">
+                          <path
+                            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z">
+                          </path>
+                        </svg></span></span>
+                  </div>
+                </div>
+              </div>
+              <div class="statusbar_item__u6ZGX">
+                <div>SIM卡2信号</div>
+                <div class="statusbar_itemContent__VOkCj">
+                  <div class="ant-select css-1wazalj ant-select-single ant-select-show-arrow" style="width:100px">
+                    <div class="ant-select-selector"><span class="ant-select-selection-search"><input type="search"
+                          autoComplete="off" class="ant-select-selection-search-input" role="combobox"
+                          aria-expanded="false" aria-haspopup="listbox" aria-owns="undefined_list"
+                          aria-autocomplete="list" aria-controls="undefined_list"
+                          aria-activedescendant="undefined_list_0" readonly="" unselectable="on" style="opacity:0"
+                          value="" /></span><span class="ant-select-selection-item" title="2格">2格</span></div><span
+                      class="ant-select-arrow" style="user-select:none;-webkit-user-select:none" unselectable="on"
+                      aria-hidden="true"><span role="img" aria-label="down"
+                        class="anticon anticon-down ant-select-suffix"><svg viewBox="64 64 896 896" focusable="false"
+                          data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true">
+                          <path
+                            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z">
+                          </path>
+                        </svg></span></span>
+                  </div>
+                </div>
+              </div>
+              <div class="statusbar_item__u6ZGX">
+                <div>电量百分比</div>
+                <div class="statusbar_itemContent__VOkCj"><button type="button" role="switch" aria-checked="true"
+                    class="ant-switch css-1wazalj ant-switch-checked">
+                    <div class="ant-switch-handle"></div><span class="ant-switch-inner"><span
+                        class="ant-switch-inner-checked"></span><span class="ant-switch-inner-unchecked"></span></span>
+                  </button></div>
+              </div>
+              <div class="statusbar_item__u6ZGX">
+                <div>显示定位图标</div>
+                <div class="statusbar_itemContent__VOkCj"><button type="button" role="switch" aria-checked="false"
+                    class="ant-switch css-1wazalj">
+                    <div class="ant-switch-handle"></div><span class="ant-switch-inner"><span
+                        class="ant-switch-inner-checked"></span><span class="ant-switch-inner-unchecked"></span></span>
+                  </button></div>
+              </div>
+            </div>
+            <div class="sidebar_bar__u5LK3" style="display:none">
+              <div class="ant-tabs ant-tabs-top css-1wazalj">
+                <div role="tablist" class="ant-tabs-nav">
+                  <div class="ant-tabs-nav-wrap">
+                    <div class="ant-tabs-nav-list" style="transform:translate(0px, 0px)">
+                      <div data-node-key="ios" class="ant-tabs-tab ant-tabs-tab-active">
+                        <div role="tab" aria-selected="true" class="ant-tabs-tab-btn" tabindex="0"><span><span
+                              role="img" aria-label="apple" class="anticon anticon-apple"><svg viewBox="64 64 896 896"
+                                focusable="false" data-icon="apple" width="1em" height="1em" fill="currentColor"
+                                aria-hidden="true">
+                                <path
+                                  d="M747.4 535.7c-.4-68.2 30.5-119.6 92.9-157.5-34.9-50-87.7-77.5-157.3-82.8-65.9-5.2-138 38.4-164.4 38.4-27.9 0-91.7-36.6-141.9-36.6C273.1 298.8 163 379.8 163 544.6c0 48.7 8.9 99 26.7 150.8 23.8 68.2 109.6 235.3 199.1 232.6 46.8-1.1 79.9-33.2 140.8-33.2 59.1 0 89.7 33.2 141.9 33.2 90.3-1.3 167.9-153.2 190.5-221.6-121.1-57.1-114.6-167.2-114.6-170.7zm-105.1-305c50.7-60.2 46.1-115 44.6-134.7-44.8 2.6-96.6 30.5-126.1 64.8-32.5 36.8-51.6 82.3-47.5 133.6 48.4 3.7 92.6-21.2 129-63.7z">
+                                </path>
+                              </svg></span>苹果</span></div>
+                      </div>
+                      <div data-node-key="android" class="ant-tabs-tab">
+                        <div role="tab" aria-selected="false" class="ant-tabs-tab-btn" tabindex="0"><span><span
+                              role="img" aria-label="android" class="anticon anticon-android"><svg
+                                viewBox="64 64 896 896" focusable="false" data-icon="android" width="1em" height="1em"
+                                fill="currentColor" aria-hidden="true">
+                                <path
+                                  d="M270.1 741.7c0 23.4 19.1 42.5 42.6 42.5h48.7v120.4c0 30.5 24.5 55.4 54.6 55.4 30.2 0 54.6-24.8 54.6-55.4V784.1h85v120.4c0 30.5 24.5 55.4 54.6 55.4 30.2 0 54.6-24.8 54.6-55.4V784.1h48.7c23.5 0 42.6-19.1 42.6-42.5V346.4h-486v395.3zm357.1-600.1l44.9-65c2.6-3.8 2-8.9-1.5-11.4-3.5-2.4-8.5-1.2-11.1 2.6l-46.6 67.6c-30.7-12.1-64.9-18.8-100.8-18.8-35.9 0-70.1 6.7-100.8 18.8l-46.6-67.5c-2.6-3.8-7.6-5.1-11.1-2.6-3.5 2.4-4.1 7.4-1.5 11.4l44.9 65c-71.4 33.2-121.4 96.1-127.8 169.6h486c-6.6-73.6-56.7-136.5-128-169.7zM409.5 244.1a26.9 26.9 0 1126.9-26.9 26.97 26.97 0 01-26.9 26.9zm208.4 0a26.9 26.9 0 1126.9-26.9 26.97 26.97 0 01-26.9 26.9zm223.4 100.7c-30.2 0-54.6 24.8-54.6 55.4v216.4c0 30.5 24.5 55.4 54.6 55.4 30.2 0 54.6-24.8 54.6-55.4V400.1c.1-30.6-24.3-55.3-54.6-55.3zm-658.6 0c-30.2 0-54.6 24.8-54.6 55.4v216.4c0 30.5 24.5 55.4 54.6 55.4 30.2 0 54.6-24.8 54.6-55.4V400.1c0-30.6-24.5-55.3-54.6-55.3z">
+                                </path>
+                              </svg></span>安卓</span></div>
+                      </div>
+                      <div class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"></div>
+                    </div>
+                  </div>
+                  <div class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"><button type="button"
+                      class="ant-tabs-nav-more" style="visibility:hidden;order:1" tabindex="-1" aria-hidden="true"
+                      aria-haspopup="listbox" aria-controls="null-more-popup" id="null-more" aria-expanded="false"><span
+                        role="img" aria-label="ellipsis" class="anticon anticon-ellipsis"><svg viewBox="64 64 896 896"
+                          focusable="false" data-icon="ellipsis" width="1em" height="1em" fill="currentColor"
+                          aria-hidden="true">
+                          <path
+                            d="M176 511a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0z">
+                          </path>
+                        </svg></span></button></div>
+                </div>
+                <div class="ant-tabs-content-holder">
+                  <div class="ant-tabs-content ant-tabs-content-top">
+                    <div role="tabpanel" tabindex="0" aria-hidden="false"
+                      class="ant-tabs-tabpane ant-tabs-tabpane-active"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="ant-list ant-list-split css-1wazalj">
+                <div class="ant-spin-nested-loading css-1wazalj">
+                  <div class="ant-spin-container">
+                    <ul class="ant-list-items">
+                      <li class="ant-list-item">
+                        <div class="ant-list-item-meta">
+                          <div class="ant-list-item-meta-content">
+                            <h4 class="ant-list-item-meta-title">iPhoneX</h4>
+                            <div class="ant-list-item-meta-description">
+                              <p>系统: <!-- -->ios</p>
+                              <p>分辨率: <!-- -->1125<!-- -->x<!-- -->2436</p>
+                            </div>
+                          </div>
+                        </div>
+                        <ul class="ant-list-item-action">
+                          <li><button type="button" class="ant-btn css-1wazalj ant-btn-primary"><span
+                                class="ant-btn-icon"><span role="img" aria-label="check-circle"
+                                  class="anticon anticon-check-circle"><svg viewBox="64 64 896 896" focusable="false"
+                                    data-icon="check-circle" width="1em" height="1em" fill="currentColor"
+                                    aria-hidden="true">
+                                    <path
+                                      d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm193.5 301.7l-210.6 292a31.8 31.8 0 01-51.7 0L318.5 484.9c-3.8-5.3 0-12.7 6.5-12.7h46.9c10.2 0 19.9 4.9 25.9 13.3l71.2 98.8 157.2-218c6-8.3 15.6-13.3 25.9-13.3H699c6.5 0 10.3 7.4 6.5 12.7z">
+                                    </path>
+                                  </svg></span></span><span>已选择</span></button></li>
+                        </ul>
+                      </li>
+                      <li class="ant-list-item">
+                        <div class="ant-list-item-meta">
+                          <div class="ant-list-item-meta-content">
+                            <h4 class="ant-list-item-meta-title">iPhoneXR</h4>
+                            <div class="ant-list-item-meta-description">
+                              <p>系统: <!-- -->ios</p>
+                              <p>分辨率: <!-- -->828<!-- -->x<!-- -->1792</p>
+                            </div>
+                          </div>
+                        </div>
+                        <ul class="ant-list-item-action">
+                          <li><button type="button" class="ant-btn css-1wazalj ant-btn-default"><span>选
+                                择</span></button></li>
+                        </ul>
+                      </li>
+                      <li class="ant-list-item">
+                        <div class="ant-list-item-meta">
+                          <div class="ant-list-item-meta-content">
+                            <h4 class="ant-list-item-meta-title">iPhoneXs Max</h4>
+                            <div class="ant-list-item-meta-description">
+                              <p>系统: <!-- -->ios</p>
+                              <p>分辨率: <!-- -->1242<!-- -->x<!-- -->2688</p>
+                            </div>
+                          </div>
+                        </div>
+                        <ul class="ant-list-item-action">
+                          <li><button type="button" class="ant-btn css-1wazalj ant-btn-default"><span>选
+                                择</span></button></li>
+                        </ul>
+                      </li>
+                      <li class="ant-list-item">
+                        <div class="ant-list-item-meta">
+                          <div class="ant-list-item-meta-content">
+                            <h4 class="ant-list-item-meta-title">iPhone11</h4>
+                            <div class="ant-list-item-meta-description">
+                              <p>系统: <!-- -->ios</p>
+                              <p>分辨率: <!-- -->828<!-- -->x<!-- -->1792</p>
+                            </div>
+                          </div>
+                        </div>
+                        <ul class="ant-list-item-action">
+                          <li><button type="button" class="ant-btn css-1wazalj ant-btn-default"><span>选
+                                择</span></button></li>
+                        </ul>
+                      </li>
+                      <li class="ant-list-item">
+                        <div class="ant-list-item-meta">
+                          <div class="ant-list-item-meta-content">
+                            <h4 class="ant-list-item-meta-title">iPhone11 Pro</h4>
+                            <div class="ant-list-item-meta-description">
+                              <p>系统: <!-- -->ios</p>
+                              <p>分辨率: <!-- -->1125<!-- -->x<!-- -->2436</p>
+                            </div>
+                          </div>
+                        </div>
+                        <ul class="ant-list-item-action">
+                          <li><button type="button" class="ant-btn css-1wazalj ant-btn-default"><span>选
+                                择</span></button></li>
+                        </ul>
+                      </li>
+                      <li class="ant-list-item">
+                        <div class="ant-list-item-meta">
+                          <div class="ant-list-item-meta-content">
+                            <h4 class="ant-list-item-meta-title">iPhone12</h4>
+                            <div class="ant-list-item-meta-description">
+                              <p>系统: <!-- -->ios</p>
+                              <p>分辨率: <!-- -->1170<!-- -->x<!-- -->2532</p>
+                            </div>
+                          </div>
+                        </div>
+                        <ul class="ant-list-item-action">
+                          <li><button type="button" class="ant-btn css-1wazalj ant-btn-default"><span>选
+                                择</span></button></li>
+                        </ul>
+                      </li>
+                      <li class="ant-list-item">
+                        <div class="ant-list-item-meta">
+                          <div class="ant-list-item-meta-content">
+                            <h4 class="ant-list-item-meta-title">iPhone12 Mini</h4>
+                            <div class="ant-list-item-meta-description">
+                              <p>系统: <!-- -->ios</p>
+                              <p>分辨率: <!-- -->1080<!-- -->x<!-- -->2340</p>
+                            </div>
+                          </div>
+                        </div>
+                        <ul class="ant-list-item-action">
+                          <li><button type="button" class="ant-btn css-1wazalj ant-btn-default"><span>选
+                                择</span></button></li>
+                        </ul>
+                      </li>
+                      <li class="ant-list-item">
+                        <div class="ant-list-item-meta">
+                          <div class="ant-list-item-meta-content">
+                            <h4 class="ant-list-item-meta-title">iPhone11 Pro Max</h4>
+                            <div class="ant-list-item-meta-description">
+                              <p>系统: <!-- -->ios</p>
+                              <p>分辨率: <!-- -->1242<!-- -->x<!-- -->2688</p>
+                            </div>
+                          </div>
+                        </div>
+                        <ul class="ant-list-item-action">
+                          <li><button type="button" class="ant-btn css-1wazalj ant-btn-default"><span>选
+                                择</span></button></li>
+                        </ul>
+                      </li>
+                      <li class="ant-list-item">
+                        <div class="ant-list-item-meta">
+                          <div class="ant-list-item-meta-content">
+                            <h4 class="ant-list-item-meta-title">iPhone13 Mini</h4>
+                            <div class="ant-list-item-meta-description">
+                              <p>系统: <!-- -->ios</p>
+                              <p>分辨率: <!-- -->1080<!-- -->x<!-- -->2340</p>
+                            </div>
+                          </div>
+                        </div>
+                        <ul class="ant-list-item-action">
+                          <li><button type="button" class="ant-btn css-1wazalj ant-btn-default"><span>选
+                                择</span></button></li>
+                        </ul>
+                      </li>
+                      <li class="ant-list-item">
+                        <div class="ant-list-item-meta">
+                          <div class="ant-list-item-meta-content">
+                            <h4 class="ant-list-item-meta-title">iPhone13</h4>
+                            <div class="ant-list-item-meta-description">
+                              <p>系统: <!-- -->ios</p>
+                              <p>分辨率: <!-- -->1170<!-- -->x<!-- -->2532</p>
+                            </div>
+                          </div>
+                        </div>
+                        <ul class="ant-list-item-action">
+                          <li><button type="button" class="ant-btn css-1wazalj ant-btn-default"><span>选
+                                择</span></button></li>
+                        </ul>
+                      </li>
+                      <li class="ant-list-item">
+                        <div class="ant-list-item-meta">
+                          <div class="ant-list-item-meta-content">
+                            <h4 class="ant-list-item-meta-title">iPhone13 Pro Max</h4>
+                            <div class="ant-list-item-meta-description">
+                              <p>系统: <!-- -->ios</p>
+                              <p>分辨率: <!-- -->1242<!-- -->x<!-- -->2688</p>
+                            </div>
+                          </div>
+                        </div>
+                        <ul class="ant-list-item-action">
+                          <li><button type="button" class="ant-btn css-1wazalj ant-btn-default"><span>选
+                                择</span></button></li>
+                        </ul>
+                      </li>
+                      <li class="ant-list-item">
+                        <div class="ant-list-item-meta">
+                          <div class="ant-list-item-meta-content">
+                            <h4 class="ant-list-item-meta-title">iPhone14 Pro</h4>
+                            <div class="ant-list-item-meta-description">
+                              <p>系统: <!-- -->ios</p>
+                              <p>分辨率: <!-- -->1179<!-- -->x<!-- -->2556</p>
+                            </div>
+                          </div>
+                        </div>
+                        <ul class="ant-list-item-action">
+                          <li><button type="button" class="ant-btn css-1wazalj ant-btn-default"><span>选
+                                择</span></button></li>
+                        </ul>
+                      </li>
+                      <li class="ant-list-item">
+                        <div class="ant-list-item-meta">
+                          <div class="ant-list-item-meta-content">
+                            <h4 class="ant-list-item-meta-title">iPhone14 Pro Max</h4>
+                            <div class="ant-list-item-meta-description">
+                              <p>系统: <!-- -->ios</p>
+                              <p>分辨率: <!-- -->1290<!-- -->x<!-- -->2796</p>
+                            </div>
+                          </div>
+                        </div>
+                        <ul class="ant-list-item-action">
+                          <li><button type="button" class="ant-btn css-1wazalj ant-btn-default"><span>选
+                                择</span></button></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sidebar_bar__u5LK3" style="display:none">
+              <div class="display_item__kHs8h">
+                <div>浅色模式</div>
+                <div class="display_itemContent__yAOx_"><button type="button" role="switch" aria-checked="true"
+                    class="ant-switch css-1wazalj ant-switch-checked">
+                    <div class="ant-switch-handle"></div><span class="ant-switch-inner"><span
+                        class="ant-switch-inner-checked"></span><span class="ant-switch-inner-unchecked"></span></span>
+                  </button></div>
+              </div>
+              <div class="display_item__kHs8h">
+                <div>深色模式</div>
+                <div class="display_itemContent__yAOx_"><button type="button" role="switch" aria-checked="false"
+                    class="ant-switch css-1wazalj">
+                    <div class="ant-switch-handle"></div><span class="ant-switch-inner"><span
+                        class="ant-switch-inner-checked"></span><span class="ant-switch-inner-unchecked"></span></span>
+                  </button></div>
+              </div>
+            </div>
+            <div class="sidebar_bar__u5LK3" style="display:none">
+              <div class="ant-list ant-list-split css-1wazalj">
+                <div class="ant-list-header">
+                  <div class="role_header__n_Dhw">
+                    <h3>角色管理</h3><button type="button"
+                      class="ant-btn css-1wazalj ant-btn-link ant-btn-sm"><span>添加角色</span></button>
+                  </div>
+                </div>
+                <div class="ant-spin-nested-loading css-1wazalj">
+                  <div class="ant-spin-container">
+                    <ul class="ant-list-items">
+                      <li class="ant-list-item">
+                        <div class="ant-list-item-meta">
+                          <div class="ant-list-item-meta-avatar"><span
+                              class="ant-upload-wrapper role_upload__yyJYo css-1wazalj">
+                              <div class="ant-upload ant-upload-select"><span tabindex="0" class="ant-upload"
+                                  role="button"><input type="file" style="display:none" accept="image/*" />
+                                  <div class="ant-image css-1wazalj"><img alt="" class="ant-image-img"
+                                      style="height:32px;width:32px;border-radius:4px"
+                                      src="/_next/static/media/logo-180.90f22328.png" /></div>
+                                  <div class="role_mask__BWs9E"><span role="img" aria-label="upload"
+                                      class="anticon anticon-upload role_maskIcon__QRf6c"><svg viewBox="64 64 896 896"
+                                        focusable="false" data-icon="upload" width="1em" height="1em"
+                                        fill="currentColor" aria-hidden="true">
+                                        <path
+                                          d="M400 317.7h73.9V656c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V317.7H624c6.7 0 10.4-7.7 6.3-12.9L518.3 163a8 8 0 00-12.6 0l-112 141.7c-4.1 5.3-.4 13 6.3 13zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z">
+                                        </path>
+                                      </svg></span></div>
+                                </span></div>
+                            </span></div>
+                          <div class="ant-list-item-meta-content">
+                            <h4 class="ant-list-item-meta-title">
+                              <div style="width:150px"><input class="ant-input css-1wazalj" type="text"
+                                  value="微截图Pro" /></div>
+                            </h4>
+                          </div>
+                        </div>
+                        <ul class="ant-list-item-action">
+                          <li><span class="ant-tag ant-tag-has-color ant-tag-borderless css-1wazalj"
+                              style="background-color:#87d068;margin-right:0">自己</span></li>
+                        </ul>
+                      </li>
+                      <li class="ant-list-item">
+                        <div class="ant-list-item-meta">
+                          <div class="ant-list-item-meta-avatar"><span
+                              class="ant-upload-wrapper role_upload__yyJYo css-1wazalj">
+                              <div class="ant-upload ant-upload-select"><span tabindex="0" class="ant-upload"
+                                  role="button"><input type="file" style="display:none" accept="image/*" />
+                                  <div class="ant-image css-1wazalj"><img alt="" class="ant-image-img"
+                                      style="height:32px;width:32px;border-radius:4px"
+                                      src="/_next/static/media/role1.5a2a8193.jpeg" /></div>
+                                  <div class="role_mask__BWs9E"><span role="img" aria-label="upload"
+                                      class="anticon anticon-upload role_maskIcon__QRf6c"><svg viewBox="64 64 896 896"
+                                        focusable="false" data-icon="upload" width="1em" height="1em"
+                                        fill="currentColor" aria-hidden="true">
+                                        <path
+                                          d="M400 317.7h73.9V656c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V317.7H624c6.7 0 10.4-7.7 6.3-12.9L518.3 163a8 8 0 00-12.6 0l-112 141.7c-4.1 5.3-.4 13 6.3 13zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z">
+                                        </path>
+                                      </svg></span></div>
+                                </span></div>
+                            </span></div>
+                          <div class="ant-list-item-meta-content">
+                            <h4 class="ant-list-item-meta-title">
+                              <div style="width:150px"><input class="ant-input css-1wazalj" type="text" value="马化云" />
+                              </div>
+                            </h4>
+                          </div>
+                        </div>
+                        <ul class="ant-list-item-action">
+                          <li><button type="button"
+                              class="ant-btn css-1wazalj ant-btn-primary ant-btn-sm ant-btn-dangerous"><span>删
+                                除</span></button><em class="ant-list-item-action-split"></em></li>
+                          <li><button type="button" class="ant-btn css-1wazalj ant-btn-primary ant-btn-sm"><span>已
+                                选</span></button></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sidebar_bar__u5LK3" style="display:none">
+              <div>请在【角色】选择聊天角色</div>
+            </div>
+          </div>
+        </div>
+        <div class="main_wrap__tK34G">
+          <h3 class="main_title__OhCsp">iPhoneX</h3>
+          <div id="content" class="main_content__VamZW">
+            <div class="shot_wrap__mm6oA">
+              <div class="shot_content__E1QoM" style="width:375px;height:812px;zoom:1">
+                <div class="shot_zoom__utAoz">
+                  <div id="shot" class="shot_phone__TdwnZ">
+                    <div class="ios_dark__xD2Wv ">
+                      <div class="ios_bar__FwgZR">
+                        <div class="ios_left__1nZY1"><span class="ios_time__0LqhN">12:22</span></div>
+                        <div class="ios_center__gPbuk"></div>
+                        <div class="ios_right__exYx6">
+                          <div class="ios_singleGroup__MNWg_"><span class="ios_single__q_T_A ">信号2</span><span
+                              class="ios_single__q_T_A ios_single2__yxQg_ ios_single2-2__mVLl3">信号2</span></div>
+                          <div class="ios_network__dDJV3">4G</div>
+                          <div class="ios_battery__C3gBw"><span><em style="width:60%">电量</em><i>60</i></span></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="shot_main__9BVb5">
+                      <div class="navbar_wrap__uhe5Q ">
+                        <div class="navbar_left__qntte"><a class="wechat_back__0skCh">返回</a><span
+                            class="bubble_wrap__fRwVU wechat_bubble__rhi7c">1</span></div>
+                        <div class="navbar_center__8V1lD">
+                          <div class="wechat_title___xt_H"><span class="wechat_text__HYrh4">未选择角色</span></div>
+                        </div>
+                        <div class="navbar_right__NKvcE"><span class="wechat_right__qad56">更多</span></div>
+                      </div>
+                      <div class="page page_wrap__YawbQ">
+                        <div class="pageList dialog_list__znkBo"></div>
+                        <div class="bottom_bar__hA7T4 "><span class="bottom_voice__SP62K">语音</span><em
+                            class="bottom_input__lRJK3">按住 说话</em><span class="bottom_emoji__dXRKD">表情</span><span
+                            class="bottom_more__2LQf8">更多功能</span></div>
+                      </div>
+                    </div>
+                    <div class="bottom_bar__y6lC_ " style="background-color:#f6f6f6"><i></i></div>
+                  </div>
+                </div>
+              </div>
+              <div class="button_button__2_rEc">
+                <div style="height:150px;padding:10px">
+                  <div class="ant-slider css-1wazalj ant-slider-vertical">
+                    <div class="ant-slider-rail"></div>
+                    <div class="ant-slider-track" style="bottom:0%;height:46.666666666666664%"></div>
+                    <div class="ant-slider-step"></div>
+                    <div class="ant-slider-handle" style="bottom:46.666666666666664%;transform:translateY(50%)"
+                      tabindex="0" role="slider" aria-valuemin="0.3" aria-valuemax="1.8" aria-valuenow="1"
+                      aria-disabled="false"></div>
+                  </div>
+                </div><a class="button_item__KyXfO button_itemNormal__haNW4"><span role="img" aria-label="fullscreen"
+                    style="font-size:20px" class="anticon anticon-fullscreen"><svg viewBox="64 64 896 896"
+                      focusable="false" data-icon="fullscreen" width="1em" height="1em" fill="currentColor"
+                      aria-hidden="true">
+                      <path
+                        d="M290 236.4l43.9-43.9a8.01 8.01 0 00-4.7-13.6L169 160c-5.1-.6-9.5 3.7-8.9 8.9L179 329.1c.8 6.6 8.9 9.4 13.6 4.7l43.7-43.7L370 423.7c3.1 3.1 8.2 3.1 11.3 0l42.4-42.3c3.1-3.1 3.1-8.2 0-11.3L290 236.4zm352.7 187.3c3.1 3.1 8.2 3.1 11.3 0l133.7-133.6 43.7 43.7a8.01 8.01 0 0013.6-4.7L863.9 169c.6-5.1-3.7-9.5-8.9-8.9L694.8 179c-6.6.8-9.4 8.9-4.7 13.6l43.9 43.9L600.3 370a8.03 8.03 0 000 11.3l42.4 42.4zM845 694.9c-.8-6.6-8.9-9.4-13.6-4.7l-43.7 43.7L654 600.3a8.03 8.03 0 00-11.3 0l-42.4 42.3a8.03 8.03 0 000 11.3L734 787.6l-43.9 43.9a8.01 8.01 0 004.7 13.6L855 864c5.1.6 9.5-3.7 8.9-8.9L845 694.9zm-463.7-94.6a8.03 8.03 0 00-11.3 0L236.3 733.9l-43.7-43.7a8.01 8.01 0 00-13.6 4.7L160.1 855c-.6 5.1 3.7 9.5 8.9 8.9L329.2 845c6.6-.8 9.4-8.9 4.7-13.6L290 787.6 423.7 654c3.1-3.1 3.1-8.2 0-11.3l-42.4-42.4z">
+                      </path>
+                    </svg></span></a>
+                <div class="ant-spin-nested-loading css-1wazalj">
+                  <div class="ant-spin-container"><a class="button_item__KyXfO"><span role="img" aria-label="camera"
+                        style="font-size:20px" class="anticon anticon-camera"><svg viewBox="64 64 896 896"
+                          focusable="false" data-icon="camera" width="1em" height="1em" fill="currentColor"
+                          aria-hidden="true">
+                          <path
+                            d="M864 260H728l-32.4-90.8a32.07 32.07 0 00-30.2-21.2H358.6c-13.5 0-25.6 8.5-30.1 21.2L296 260H160c-44.2 0-80 35.8-80 80v456c0 44.2 35.8 80 80 80h704c44.2 0 80-35.8 80-80V340c0-44.2-35.8-80-80-80zM512 716c-88.4 0-160-71.6-160-160s71.6-160 160-160 160 71.6 160 160-71.6 160-160 160zm-96-160a96 96 0 10192 0 96 96 0 10-192 0z">
+                          </path>
+                        </svg></span></a></div>
+                </div><a class="button_item__KyXfO button_itemWater__dJicb"><span>去除</span><span>水印</span></a>
+                <div class="shot css-1wazalj"><img alt="截图预览" class="shot-img" style="display:none" />
+                  <div class="shot-mask" style="display:none">
+                    <div class="shot-mask-info"><span role="img" aria-label="eye" class="anticon anticon-eye"><svg
+                          viewBox="64 64 896 896" focusable="false" data-icon="eye" width="1em" height="1em"
+                          fill="currentColor" aria-hidden="true">
+                          <path
+                            d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 000 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z">
+                          </path>
+                        </svg></span>预览</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="ant-layout-footer layout_footer__35cc_ css-1wazalj">©2023 微截图Pro</footer>
+    </section>
+    <div class="loading_loading__JrCmd" style="display:flex">
+      <div class="loading_loader__OgO4H loading_loader-circle__Bto5F">
+        <div class="loading_loader-inner__j_FDf"></div>
+      </div>
+      <div class="loading_loader-text__uE75f">资源加载中,请稍后...</div>
+    </div>
+  </div>
+  <script id="__NEXT_DATA__"
+    type="application/json">{"props":{"pageProps":{}},"page":"/wechat/chat","query":{},"buildId":"PtEk2uW4vVKqtwWvTyZpy","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script>
+  <script>
+    setTimeout(() => {
+      document.getElementsByClassName('bottom_bar__y6lC_ ')[0].nextElementSibling.style = 'display:none';
+    }, 1000);
+  </script>
+</body>
+
+</html>
+</body>
+
+</html>
